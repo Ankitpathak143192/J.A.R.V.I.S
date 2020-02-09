@@ -1,0 +1,16 @@
+#################STEPS######################
+1) Put this folder in Desktop
+2) Go to START Menu
+3) Search CMD
+4) Open CMD
+5) cmd will open a terminal
+6) Type: cd Desktop/ObjectRecognition
+7) Type: python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+
+###########More Information ###############################
+website: www.pathakankit.com
+Instagram: www.instagram.com/pathakankit99
+Facebook: www.facebook.com/pathakankit99
+YouTube: www.youtube.com/pathakankit
+Blog: www.pathakankit.com/blog
