@@ -31,7 +31,7 @@ model.train(images, lables)
 
 # Part 2: Use fisherRecognizer on camera stream 
 face_cascade = cv2.CascadeClassifier(haar_file) 
-webcam = cv2.VideoCapture(0) //change VideoCapture(0) to VideoCapture(1) to use external webcam
+webcam = cv2.VideoCapture(0) #change VideoCapture(0) to VideoCapture(1) to use external webcam
 while True: 
 	(_, im) = webcam.read() 
 	gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) 
